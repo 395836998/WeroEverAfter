@@ -35,7 +35,7 @@ $(function () {
 		}
 
         var email = $("input#email").val();
-        var filter = /^[a-zA-Z0-9]+[a-zA-Z0-9_.-]+[a-zA-Z0-9_-]+@[a-zA-Z0-9]+[a-zA-Z0-9.-]+[a-zA-Z0-9]+.[a-z]{2,4}$/;
+        var filter = /^[0-9]{11}$/;
         console.log(filter.test(email));
         if (!filter.test(email)) {
             $("label#email_error").show();
@@ -61,15 +61,15 @@ $(function () {
               $(this).prop('disabled',true);
         }
 
-        var dataString = 'name=' + name + '&response=' + response + '&email=' + email + '&guests=' + guests + '&message=' + message;
+        var dataString = 'name=' + name + '&response=' + response + '&phonenumber=' + email + '&guests=' + guests + '&message=' + message;
         //alert (dataString);return false;
 
         $.ajax({
             type:"POST",
-            url:"process.php",
+            url:"comment.php",
             data:dataString,
             success:function () {
-                $('#af-form').prepend("<div class=\"alert alert-success fade in\"><button class=\"close\" data-dismiss=\"alert\" type=\"button\">&times;</button><strong>Contact Form Submitted!</strong> We will be in touch soon.</div>");
+                $('#af-form').prepend("<div class=\"alert alert-success fade in\"><button class=\"close\" data-dismiss=\"alert\" type=\"button\">&times;</button><strong>谢谢您的祝福，愿天下有情人终成眷属！</strong></div>");
                 $('#af-form')[0].reset();
                 $('.form-button').prop('disabled',false);
             }
