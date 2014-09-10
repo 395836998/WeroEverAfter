@@ -27,7 +27,7 @@
 	
 /*   I. 	Defaul Selectors
 ==============================*/ 
- 
+
 body {
   background-color: #f2f2f2;
     font-family: "Roboto Slab";
@@ -47,9 +47,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row h2 {
-font-family: 'Pacifico', cursive;
+/*font-family: 'Pacifico', cursive;*/
 color: #dd675b;
 margin-bottom:15px;
+}
+
+.row .last-font {
+font-family: 'Pacifico', cursive;
 }
 
 
