@@ -66,10 +66,10 @@ $(function () {
 
         $.ajax({
             type:"POST",
-            url:"comment.php",
+            url:"save.php",
             data:dataString,
             success:function () {
-                $('#af-form').prepend("<div class=\"alert alert-success fade in\"><button class=\"close\" data-dismiss=\"alert\" type=\"button\">&times;</button><strong>谢谢您的祝福，愿天下有情人终成眷属！</strong></div>");
+                $('#af-form').parent().parent().append("<div class=\"alert alert-success fade in\"><button class=\"close\" data-dismiss=\"alert\" type=\"button\">&times;</button><strong>谢谢您的祝福，愿天下有情人终成眷属！</strong></div>");
                 $('#af-form')[0].reset();
                 $('.form-button').prop('disabled',false);
             }

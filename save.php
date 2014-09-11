@@ -7,7 +7,7 @@ if (!$con){
 
 mysql_select_db("everafter", $con);
 
-$sql="insert into t_comments (name, response, phonenumber, guests, message) VALUES ('$_POST[name]', '$_POST[response]', '$_POST[phonenumber]', '$_POST[guests]', '$_POST[message]')";
+$sql="insert into t_comments (name, response, phonenumber, guests, message) VALUES ('$_POST[name]', '$_POST[response]', '$_POST[phonenumber]', $_POST[guests], '$_POST[message]')";
 
 if (!mysql_query($sql,$con)){
 	die('Error: ' . mysql_error());

@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+
+<?php
+	header("Content-Type: text/html; charset=utf-8");
+?>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -152,7 +157,7 @@
 </div>
 <div class="row postDetails">
 <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-<div class="postYear">Feb, 2011</div>
+<div class="postYear">袁春阳</div>
 </div>
 <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
 <div class="arrowpart"></div>
@@ -164,7 +169,7 @@
 </div>
 <div class="row postDetails">
 <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-<div class="postYear">Mar, 2012</div>
+<div class="postYear">zhanglian</div>
 </div>
 <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
 <div class="arrowpart"></div>
@@ -372,14 +377,43 @@
 <div class="container">
 <div class="row">
 <div class="col-lg-6 col-lg-offset-3">
-<h2 class="HeitiSC">最后</h2>
+<h2 class="HeitiSC">他们也在祝福</h2>
 <span class="hearts"></span>
-<p><span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequats.</p>
-<ul class="list-inline">
-<li><a href="#"><img src="images\envato1.png" alt="test"></a></li>
-<li><a href="#"><img src="images\envato1.png" alt="test"></a></li>
-<li><a href="#"><img src="images\envato1.png" alt="test"></a></li>
-</ul>
+
+<!--留言板块-->
+
+<?php
+
+$con = mysql_connect("112.124.101.241", "zhangl", "zhangl");
+if (!$con) {
+	die('Could not connect: ' . mysql_error());
+}
+
+mysql_select_db("everafter", $con);
+
+$result = mysql_query("SELECT * FROM t_comments where audit = 'Y'");
+
+while($row = mysql_fetch_array($result)) {
+
+?>
+	<div class="ds-post-main">
+		<div class="ds-avatar">
+			<a href="#"><img alt="friends" src="img/1.jpg"></a>
+		</div>
+		<div class="ds-comment-body">
+		<?php	
+			echo "<a title='" . $row['name'] . "' href='javascript:void(0)' class='user-name'>" . $row['name'] . "</a>";
+			echo "<p>" . $row['message'] . "</p>";
+		?>
+		</div>
+	</div>
+
+<?php
+}
+mysql_close($con);
+?>
+
+
 </div>
 </div>
 </div>
