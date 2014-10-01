@@ -38,7 +38,7 @@
 <a href="#gallery" class="smoothScroll">Gallery</a>
 <a href="#events" class="smoothScroll">Events</a>
 <a href="#rsvp" class="smoothScroll">RSVP</a>
-<a href="#gifts" class="smoothScroll">Gifts</a>
+<a href="#gifts" class="smoothScroll">Wishes</a>
 <a href="#"><i class="fa fa-facebook"></i></a>
 <a href="#"><i class="fa fa-twitter"></i></a>
 <a href="#"><i class="fa fa-dribbble"></i></a>
@@ -53,7 +53,7 @@
 <h2>lyan zhang <span class="amp">&</span> haruko yuan </h2>
 <h2><span class="STHeitiTC">（张  炼 </span><span class="amp">&</span><span class="STHeitiTC"> 袁春阳）</span></h2>
 <h2 class="amp">are getting married..dd!</h2>
-<h2 class="amp"><span class="STHeitiTC">（结婚啦）</span></h2>
+<h2 class="amp"><span class="STHeitiTC">（结婚啦...）</span></h2>
 <div class="row">
 <br>
 <br>
@@ -111,10 +111,10 @@
 <div class="row">
 <ul class="ch-grid row">
 <li>
-<div class="ch-item ch-img-1">
+<div class="ch-item ch-img-3">
 <div class="ch-info">
-<h3>张炼</h3>
-<p>新郎</p>
+<h3>袁春阳</h3>
+<p>新娘</p>
 </div>
 </div>
 </li>
@@ -126,10 +126,10 @@
 </div>
 </li>
 <li>
-<div class="ch-item ch-img-3">
+<div class="ch-item ch-img-1">
 <div class="ch-info">
-<h3>袁春阳</h3>
-<p>新娘</p>
+<h3>张炼</h3>
+<p>新郎</p>
 </div>
 </div>
 </li>
@@ -236,37 +236,37 @@
 </figcaption>
 </figure>
 <figure data-dummy="">
-<a href="#" class="photostack-img"><img src="images\7s.jpg" alt="img07"></a>
+<a href="images\7.jpg" class="photostack-img"><img src="images\7s.jpg" alt="img07"></a>
 <figcaption>
 <h2 class="photostack-title">Lovely Green</h2>
 </figcaption>
 </figure>
 <figure data-dummy="">
-<a href="#" class="photostack-img"><img src="images\8s.jpg" alt="img08"></a>
+<a href="images\8.jpg" class="photostack-img"><img src="images\8s.jpg" alt="img08"></a>
 <figcaption>
 <h2 class="photostack-title">Wonderful</h2>
 </figcaption>
 </figure>
 <figure data-dummy="">
-<a href="#" class="photostack-img"><img src="images\9s.jpg" alt="img09"></a>
+<a href="images\9.jpg" class="photostack-img"><img src="images\9s.jpg" alt="img09"></a>
 <figcaption>
 <h2 class="photostack-title">Love Addict</h2>
 </figcaption>
 </figure>
 <figure data-dummy="">
-<a href="#" class="photostack-img"><img src="images\10s.jpg" alt="img10"></a>
+<a href="images\10.jpg" class="photostack-img"><img src="images\10s.jpg" alt="img10"></a>
 <figcaption>
 <h2 class="photostack-title">Friendship</h2>
 </figcaption>
 </figure>
 <figure data-dummy="">
-<a href="#" class="photostack-img"><img src="images\11s.jpg" alt="img11"></a>
+<a href="images\11.jpg" class="photostack-img"><img src="images\11s.jpg" alt="img11"></a>
 <figcaption>
 <h2 class="photostack-title">White Nights</h2>
 </figcaption>
 </figure>
 <figure data-dummy="">
-<a href="#" class="photostack-img"><img src="images\12s.jpg" alt="img12"></a>
+<a href="images\12.jpg" class="photostack-img"><img src="images\12s.jpg" alt="img12"></a>
 <figcaption>
 <h2 class="photostack-title">Serendipity</h2>
 </figcaption>
@@ -283,37 +283,35 @@
 <div class="col-md-6 event">
 <h3 class="S2G_love">结婚典礼</h3>
 <div class="grid">
-<a href="#">
+<a href="http://j.map.baidu.com/5jfww" target="_blank">
 <figure>
 <img src="images\event-1.jpg">
 <figcaption>
-<button>View</button>
+<button>查看地图</button>
 </figcaption>
 </figure>
 </a>
 </div>
 <div class="event-meta"><span><i class="fa fa-calendar-o"></i> 2014.10.25</span> <span><i class="fa fa-clock-o"></i> 12:08am - 12:30am</span>
-<span class="S2G_love"> <i class="fa fa-building-o"></i> 合川东海滨江城三洋食府</span></div>
+<span class="S2G_love"> <i class="fa fa-building-o"></i> 重庆合川·东海滨江城·三洋食府</span></div>
 <p class="justify"><span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-<a href="http://j.map.baidu.com/5jfww" target="_blank" class="link">查看百度地图</a>
 <br>
 </div>
 <div class="col-md-6  event">
 <h3 class="S2G_love">结婚宴席</h3>
 <div class="grid">
-<a href="#">
+<a href="http://j.map.baidu.com/5jfww" target="_blank">
 <figure>
 <img src="images\event-2.jpg">
 <figcaption>
-<button>View</button>
+<button>查看地图</button>
 </figcaption>
 </figure>
 </a>
 </div>
 <div class="event-meta"><span><i class="fa fa-calendar-o"></i> 2014.10.25</span> <span><i class="fa fa-clock-o"></i> 12:30am - 8:00pm</span>
-<span class="S2G_love"> <i class="fa fa-building-o"></i> 合川东海滨江城三洋茶楼</span></div>
+<span class="S2G_love"> <i class="fa fa-building-o"></i> 重庆合川·东海滨江城·三洋茶楼</span></div>
 <p class="justify"><span class="dropcap">S</span>ome ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-<a href="http://j.map.baidu.com/5jfww" target="_blank" class="link">查看百度地图</a>
 <br>
 </div>
 </div>
@@ -323,7 +321,7 @@
 <div id="rsvpwrap">
 <div class="container">
 <div class="row">
-<h2 class="HeitiSC amp" >期待您的祝福</h2>
+<h2 class="HeitiSC amp" >诚邀您现场见证</h2>
 <span class="hearts"></span>
 <form name="contact" method="post" action="index.html" class="af-form" id="af-form">
 <div class="col-lg-4 col-lg-offset-4">
@@ -458,15 +456,15 @@ because reality is finally better than your dreams.
 	//mySound.loop().play().setVolume(0).fadeTo(40, 5000);
 </script>
 </body>
+		
 
-
-<script type="text/javascript" src="http://www.youziku.com/UserDownFile/jquery.md5.js"></script>
+<script type="text/javascript" src="http://www.youziku.com/userDownFile/jquery.md5.js"></script>
 <script type="text/javascript">
     function youzikujsm() {
         var datastr = [], 
 		datamd5 = [], 
-		dataname = ["STHeitiTC","HeitiSC", "S2G_love"], 
-		dataguid = ["88c46ffd2dc9432ea0f9474f952d39c9","cd63bfcae6134f209d4927c849461041", "5883c4ce55be4e4b80a782d33d53cd53"];
+		dataname = ["STHeitiTC", "HeitiSC", "S2G_love"], 
+		dataguid = ["88c46ffd2dc9432ea0f9474f952d39c9", "cd63bfcae6134f209d4927c849461041", "5883c4ce55be4e4b80a782d33d53cd53"];
 		
         for (var i = 0; i < dataname.length; i++) {
             var elem = dataname[i];
@@ -497,6 +495,11 @@ because reality is finally better than your dreams.
             })
         });
     }
-    (function youziku() { youzikujsm(); })()
+    
+	(function youziku() { youzikujsm(); })()
+	
+	
+	
 </script>
+
 </html>
