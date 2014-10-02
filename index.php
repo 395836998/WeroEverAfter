@@ -290,24 +290,36 @@
 <h2 class="photostack-title">Love Addict</h2>
 </figcaption>
 </figure>
+
 <figure data-dummy="">
 <a href="images\10.jpg" class="photostack-img"><img src="images\10s.jpg" alt="img10"></a>
 <figcaption>
 <h2 class="photostack-title">Friendship</h2>
 </figcaption>
 </figure>
+
 <figure data-dummy="">
 <a href="images\11.jpg" class="photostack-img"><img src="images\11s.jpg" alt="img11"></a>
 <figcaption>
 <h2 class="photostack-title">White Nights</h2>
 </figcaption>
 </figure>
+
 <figure data-dummy="">
 <a href="images\12.jpg" class="photostack-img"><img src="images\12s.jpg" alt="img12"></a>
 <figcaption>
 <h2 class="photostack-title">Serendipity</h2>
 </figcaption>
 </figure>
+
+
+<figure data-dummy="">
+<a href="images\13.jpg" class="photostack-img"><img src="images\13s.jpg" alt="img13"></a>
+<figcaption>
+<h2 class="photostack-title">Walle</h2>
+</figcaption>
+</figure>
+
 </div>
 </section>
 </div>
@@ -490,8 +502,8 @@ because reality is finally better than your dreams.
 
 <script type="text/javascript">
 
-	//var mySound1 = new buzz.sound("audio/WeddingMarchCargo.mp3");
-	//mySound1.loop().play().setVolume(0).fadeTo(40, 5000);
+	var mySound1 = new buzz.sound("audio/WeddingMarchCargo.mp3");
+	mySound1.loop().play().setVolume(0).fadeTo(40, 5000);
 	
 	$("#musicToggle").click(function(){
 		if(mySound1.isPaused()){
