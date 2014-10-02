@@ -39,12 +39,10 @@
 <a href="#events" class="smoothScroll">Events</a>
 <a href="#rsvp" class="smoothScroll">RSVP</a>
 <a href="#gifts" class="smoothScroll">Wishes</a>
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-<a href="#"><i class="fa fa-dribbble"></i></a>
-<a href="#"><i class="fa fa-envelope"></i></a>
+
 </div>
 <div id="menuToggle"><i class="fa fa-heart"></i></div>
+<div id="musicToggle" title="暂停背景音乐" alt="暂停背景音乐"><i class="fa fa-music" title="暂停背景音乐" alt="暂停背景音乐"></i></div>
 </nav>
 <section id="home"></section>
 <div id="headerwrap" class="hero">
@@ -66,45 +64,62 @@
 <ul id="slide-list"></ul>
 <ul id="supersized"></ul>
 </div>
+
+
 <div class="white">
-<div class="container">
-<div class="row">
-<h2 class="HeitiSC" >婚礼倒计时</h2>
-<span class="hearts"></span>
+	<div class="container">
+		<div class="row">
+			<h2 class="HeitiSC" >婚礼倒计时</h2>
+			<span class="hearts"></span>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+			<ul id="countdown_dashboard">
+			<li class="dash weeks_dash">
+			<span class="dash_title">周</span>
+			<div class="digit">0</div>
+			<div class="digit">0</div>
+			</li>
+			<li class="dash days_dash">
+			<span class="dash_title">天</span>
+			<div class="digit">0</div>
+			<div class="digit">0</div>
+			</li>
+			<li class="dash hours_dash">
+			<span class="dash_title">小时</span>
+			<div class="digit">0</div>
+			<div class="digit">0</div>
+			</li>
+			<li class="dash minutes_dash">
+			<span class="dash_title">分</span>
+			<div class="digit">0</div>
+			<div class="digit">0</div>
+			</li>
+			<li class="dash seconds_dash">
+			<span class="dash_title">秒</span>
+			<div class="digit">0</div>
+			<div class="digit">0</div>
+			</li>
+			</ul>
+			</div>
+		</div>
+		
+		<br/>
+		<div class="row">
+			<h2 class="HeitiSC" >婚礼预告片</h2>
+			<span class="hearts"></span>
+		</div>
+		<div class="row">
+			<video id="myTata" width="60%" controls="controls">  
+				<source src="audio/Tata.mp4" type="video/mp4" />   
+					你的浏览器不支持html5  
+			</video>
+		</div>
+		
+	</div>
 </div>
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<ul id="countdown_dashboard">
-<li class="dash weeks_dash">
-<span class="dash_title">周</span>
-<div class="digit">0</div>
-<div class="digit">0</div>
-</li>
-<li class="dash days_dash">
-<span class="dash_title">天</span>
-<div class="digit">0</div>
-<div class="digit">0</div>
-</li>
-<li class="dash hours_dash">
-<span class="dash_title">小时</span>
-<div class="digit">0</div>
-<div class="digit">0</div>
-</li>
-<li class="dash minutes_dash">
-<span class="dash_title">分</span>
-<div class="digit">0</div>
-<div class="digit">0</div>
-</li>
-<li class="dash seconds_dash">
-<span class="dash_title">秒</span>
-<div class="digit">0</div>
-<div class="digit">0</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
+
+
 <section id="story"></section>
 <div class="grey">
 <div class="container">
@@ -145,52 +160,74 @@
 <span class="hearts"></span>
 <div class="row postDetails">
 <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-<div class="postYear">Jan, 2011 </div>
+<div class="postYear">2009年 </div>
 </div>
 <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
 <div class="arrowpart"></div>
 <div class="exCon">
-<h3>First Date</h3>
-<p><span class="dropcap">N</span>am liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+<p><span class="dropcap">他</span>第一次和她一起看电影，沙坪坝电影院，变形金刚2。他们，偷偷地拉了手。</p>
 </div>
 </div>
 </div>
 <div class="row postDetails">
 <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-<div class="postYear">袁春阳</div>
+<div class="postYear">2010年</div>
 </div>
 <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
 <div class="arrowpart"></div>
 <div class="exCon">
-<h3>Second Meeting</h3>
-<p><span class="dropcap">O</span>am liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+<p><span class="dropcap">她</span>毕业放弃了保送研究生，放弃了重庆的好工作，毅然来到深圳，她说她要和他一起奋斗。</p>
 </div>
 </div>
 </div>
 <div class="row postDetails">
 <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-<div class="postYear">zhanglian</div>
+<div class="postYear">2011年</div>
 </div>
 <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
 <div class="arrowpart"></div>
 <div class="exCon">
-<h3>He played a music for me</h3>
-<p><span class="dropcap">W</span>am liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+<p><span class="dropcap">他们</span>工作之余也偶尔享受着平静的生活。上班工作，下班宅家，周末出去散步，成了他们生活的全部。</p>
 </div>
 </div>
 </div>
+
 <div class="row postDetails">
 <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-<div class="postYear">April, 2012</div>
+<div class="postYear">2012年</div>
 </div>
 <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
 <div class="arrowpart"></div>
 <div class="exCon">
-<h3>Our first picture together</h3>
-<p><span class="dropcap">S</span>am liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+<p><span class="dropcap">他们</span>买房了，供房一族，鸭梨山大。他们期盼着早日告别蜗居的生活，有一个自己的家。</p>
 </div>
 </div>
 </div>
+
+<div class="row postDetails">
+<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+<div class="postYear">2013年</div>
+</div>
+<div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+<div class="arrowpart"></div>
+<div class="exCon">
+<p><span class="dropcap">他们</span>结束南漂生活，回到美丽的家乡，重庆合川。</p>
+</div>
+</div>
+</div>
+
+<div class="row postDetails">
+<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+<div class="postYear">2014年</div>
+</div>
+<div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+<div class="arrowpart"></div>
+<div class="exCon">
+<p><span class="dropcap">他们</span>在一起共同走过了近六年之后，装好了新房，备好了喜糖，走进了婚礼的殿堂。</p>
+</div>
+</div>
+</div>
+
 </div>
 </div>
 </div>
@@ -293,7 +330,7 @@
 </a>
 </div>
 <div class="event-meta"><span><i class="fa fa-calendar-o"></i> 2014.10.25</span> <span><i class="fa fa-clock-o"></i> 12:08am - 12:30am</span>
-<span class="S2G_love"> <i class="fa fa-building-o"></i> 重庆合川·东海滨江城·三洋食府</span></div>
+<span class="S2G_love"> <i class="fa fa-building-o"></i> 重庆合川·滨江路·三洋食府</span></div>
 <p class="justify"><span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <br>
 </div>
@@ -310,7 +347,7 @@
 </a>
 </div>
 <div class="event-meta"><span><i class="fa fa-calendar-o"></i> 2014.10.25</span> <span><i class="fa fa-clock-o"></i> 12:30am - 8:00pm</span>
-<span class="S2G_love"> <i class="fa fa-building-o"></i> 重庆合川·东海滨江城·三洋茶楼</span></div>
+<span class="S2G_love"> <i class="fa fa-building-o"></i> 重庆合川·滨江路·三洋茶楼</span></div>
 <p class="justify"><span class="dropcap">S</span>ome ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <br>
 </div>
@@ -452,12 +489,30 @@ because reality is finally better than your dreams.
 <script src="js\main.js"></script>
 
 <script type="text/javascript">
-	//var mySound = new buzz.sound("audio/MarryYou.mp3");
-	//mySound.loop().play().setVolume(0).fadeTo(40, 5000);
+
+	//var mySound1 = new buzz.sound("audio/WeddingMarchCargo.mp3");
+	//mySound1.loop().play().setVolume(0).fadeTo(40, 5000);
+	
+	$("#musicToggle").click(function(){
+		if(mySound1.isPaused()){
+			mySound1.play();
+		}else{
+			mySound1.pause();
+		}
+	});
+
+	
+	Media = document.getElementById("myTata");
+	Media.addEventListener("play", function(){
+		mySound1.pause();
+	}); 
+	Media.addEventListener("pause", function(){
+		mySound1.setVolume(0).play().fadeTo(40, 5000);
+	});
+
 </script>
 </body>
 		
-
 <script type="text/javascript" src="http://www.youziku.com/userDownFile/jquery.md5.js"></script>
 <script type="text/javascript">
     function youzikujsm() {
