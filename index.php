@@ -109,13 +109,17 @@
 			<h2 class="HeitiSC" >婚礼预告片</h2>
 			<span class="hearts"></span>
 		</div>
+		<!--
 		<div class="row">
 			<video id="myTata" width="60%" controls="controls">  
 				<source src="audio/Tata.mp4" type="video/mp4" />   
-					你的浏览器不支持html5  
+					haruko的浏览器支持html5但播放不出来，lyanzhang的也一样  
 			</video>
 		</div>
-		
+		-->
+		<div class="row">
+			<iframe height=498 width=510 src="http://player.youku.com/embed/XNzk1NjI1Mzg4" frameborder=0 allowfullscreen></iframe>
+		</div>
 	</div>
 </div>
 
@@ -341,7 +345,7 @@
 </figure>
 </a>
 </div>
-<div class="event-meta"><span><i class="fa fa-calendar-o"></i> 2014.10.25</span> <span><i class="fa fa-clock-o"></i> 12:08am - 12:30am</span>
+<div class="event-meta"><span><i class="fa fa-calendar-o"></i> 2014.10.25</span> <span><i class="fa fa-clock-o"></i> 12:08 - 12:30</span>
 <span class="S2G_love"> <i class="fa fa-building-o"></i> 重庆合川·滨江路·三洋食府</span></div>
 <p class="justify"><span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <br>
@@ -358,7 +362,7 @@
 </figure>
 </a>
 </div>
-<div class="event-meta"><span><i class="fa fa-calendar-o"></i> 2014.10.25</span> <span><i class="fa fa-clock-o"></i> 12:30am - 8:00pm</span>
+<div class="event-meta"><span><i class="fa fa-calendar-o"></i> 2014.10.25</span> <span><i class="fa fa-clock-o"></i> 12:30 - 20:00</span>
 <span class="S2G_love"> <i class="fa fa-building-o"></i> 重庆合川·滨江路·三洋茶楼</span></div>
 <p class="justify"><span class="dropcap">S</span>ome ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <br>
@@ -482,7 +486,8 @@ because reality is finally better than your dreams.
 <div class="container">
 <div class="row">
 <div id="copy">
-<span><a href="http://www.baidu.com/">TATA  PRERENTS</a></span>
+<span>TATA  PRERENTS</span> | <span>渝ICP备14001849号-4</span> | 
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253356613'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D1253356613%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 </div>
 </div>
 </div>
@@ -512,8 +517,8 @@ because reality is finally better than your dreams.
 			mySound1.pause();
 		}
 	});
-
 	
+	/*
 	Media = document.getElementById("myTata");
 	Media.addEventListener("play", function(){
 		mySound1.pause();
@@ -521,6 +526,7 @@ because reality is finally better than your dreams.
 	Media.addEventListener("pause", function(){
 		mySound1.setVolume(0).play().fadeTo(40, 5000);
 	});
+	*/
 
 </script>
 </body>
